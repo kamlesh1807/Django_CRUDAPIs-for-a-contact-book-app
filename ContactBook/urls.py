@@ -31,10 +31,10 @@ api_urlpatterns = [
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/', include(api_urlpatterns)),
+    path('api/ky/', include(api_urlpatterns)),
     path(r'api/docs/', schema_view),
-    path('api/v1/accounts/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/v1/accounts/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('api/v1/accounts/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
-    path('api/v1/server/', include('contact.urls')),
+    path('api/ky/accounts/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/ky/accounts/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/ky/accounts/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
+    path('api/ky/server/', include('contact.urls')),
 ]
