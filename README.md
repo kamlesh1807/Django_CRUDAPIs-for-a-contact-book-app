@@ -67,6 +67,8 @@ In a RESTful API, endpoints (URLs) define the structure of the API and how end u
 ## TEST
 
   We can test the API using  POSTMAN  extension :
+  
+ ![Register A user](https://user-images.githubusercontent.com/61351274/105619324-7d0a0700-5e17-11eb-80b7-d2e22f0d2323.JPG)
 
 
       
