@@ -67,15 +67,11 @@ In a RESTful API, endpoints (URLs) define the structure of the API and how end u
 ## Test
 
   We can test the API using  POSTMAN  extension.
-  Registration of a new user :
+  Registration of a new user Add Contact Read Contact Update and Delete Contact  :
   
  ![Register A user](https://user-images.githubusercontent.com/61351274/105619324-7d0a0700-5e17-11eb-80b7-d2e22f0d2323.JPG)
  
-  List all Contact
-  
-  ![Register A user](https://user-images.githubusercontent.com/61351274/105619487-f3f3cf80-5e18-11eb-88b8-83444e3534c5.JPG)
-
-  Add Contact
+ 
   
   
 
