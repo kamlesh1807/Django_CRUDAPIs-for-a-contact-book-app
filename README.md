@@ -68,16 +68,31 @@ In a RESTful API, endpoints (URLs) define the structure of the API and how end u
 
   We can test the API using  POSTMAN  extension.
   
+  ### Registration of a new user Add Contact Read Contact Update and Delete Contact  :
   
+  ![Register A user](https://user-images.githubusercontent.com/61351274/105619902-230c4000-5e1d-11eb-9359-28a8e96a6ab0.JPG)
 
-![Add contact](https://user-images.githubusercontent.com/61351274/105619898-1f78b900-5e1d-11eb-9f4c-6203adb4c706.JPG)
-![Delete contact](https://user-images.githubusercontent.com/61351274/105619899-20a9e600-5e1d-11eb-953c-2bc097e65744.JPG)
-![Get token](https://user-images.githubusercontent.com/61351274/105619900-21db1300-5e1d-11eb-9af6-8204eaf2119b.JPG)
-![List All Contact](https://user-images.githubusercontent.com/61351274/105619901-2273a980-5e1d-11eb-9132-804c0496cd37.JPG)
-![Register A user](https://user-images.githubusercontent.com/61351274/105619902-230c4000-5e1d-11eb-9359-28a8e96a6ab0.JPG)
-![update](https://user-images.githubusercontent.com/61351274/105619903-23a4d680-5e1d-11eb-859c-c39aed039150.JPG)
+  ### Get Token of the Registered user
+  
+  ![Get token](https://user-images.githubusercontent.com/61351274/105619900-21db1300-5e1d-11eb-9af6-8204eaf2119b.JPG)
+ 
+  ### Add Contact
+  
+  ![Add contact](https://user-images.githubusercontent.com/61351274/105619898-1f78b900-5e1d-11eb-9f4c-6203adb4c706.JPG)
+  
+  ### List All Contact
+  
+  ![List All Contact](https://user-images.githubusercontent.com/61351274/105619901-2273a980-5e1d-11eb-9132-804c0496cd37.JPG)
+  
+  ### Update a Contact
+  
+  ![update](https://user-images.githubusercontent.com/61351274/105619903-23a4d680-5e1d-11eb-859c-c39aed039150.JPG)
+  
+  ### Delete a Contact'
+  
+  ![Delete contact](https://user-images.githubusercontent.com/61351274/105619899-20a9e600-5e1d-11eb-953c-2bc097e65744.JPG)
 
-  Registration of a new user Add Contact Read Contact Update and Delete Contact  :
+### Thanks For Visit.  
   
  
  
