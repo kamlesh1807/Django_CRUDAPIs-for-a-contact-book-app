@@ -56,7 +56,7 @@ In a RESTful API, endpoints (URLs) define the structure of the API and how end u
               
          http://127.0.0.1:8080/api/ky/server/  Authorization Token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM
          
-      Note : Provide <b> Unique <b> Email , First  name , Last name , Phone no   and optional number.
+      Note : Provide <b> Unique </b> Email , First  name , Last name , Phone no   and optional number.
  4. To List Contact  - GET
    
          http://127.0.0.1:8080/api/ky/server/   Authorization Token :eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM 
