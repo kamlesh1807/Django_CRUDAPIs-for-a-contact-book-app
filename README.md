@@ -31,7 +31,33 @@ A suite of CRUD APIs for a contact book app .
 ## Structure
 In a RESTful API, endpoints (URLs) define the structure of the API and how end users access data from our application using the HTTP methods - GET, POST, PUT, DELETE.
 
-`     GET    READ        Get all Contact
-      POST   CREATE      Create a new movie
-      PUT    UPDATE      Update a movie
-      DELETE DELETE      Delete a movie
+ 1. To Register a new user - POST 
+
+          http://127.0.0.1:8080/api/ky/accounts/register/
+          
+          
+ 2. To get the Token -  POST
+ 
+          http://127.0.0.1:8080/api/ky/accounts/token/
+          
+ 3. To Add Contact  - POST
+              
+         http://127.0.0.1:8080/api/ky/server/   Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM
+         
+  4. To List Contact  - GET
+   
+         http://127.0.0.1:8080/api/ky/server/   Token  eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM 
+         
+  5.  To Update Contact  - PUT
+  
+         http://127.0.0.1:8080/api/ky/server/<ID>   Token   eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM
+           
+      Note : to update a contact -The  <ID> of the Contact which we want to update is passed while calling.
+           
+   6.  To Delete Contact  - DELETE
+  
+         http://127.0.0.1:8080/api/ky/server/<ID>   Token   eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM
+           
+      Note : to Delete a contact -The  <ID> of the Contact which we want to update is passed while calling.
+      
+      
