@@ -47,12 +47,11 @@ In a RESTful API, endpoints (URLs) define the structure of the API and how end u
 
          http://127.0.0.1:8080/api/ky/accounts/register/
          
-         
+       Note : Provide <b> Unique </b> UserName, Email , First  name , Last name . 
  2. To get the Token -  POST
  
          http://127.0.0.1:8080/api/ky/accounts/token/
          
-       Note : Provide <b> Unique <b> UserName, Email , First  name , Last name . 
  3. To Add Contact  - POST
               
          http://127.0.0.1:8080/api/ky/server/  Authorization Token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM
