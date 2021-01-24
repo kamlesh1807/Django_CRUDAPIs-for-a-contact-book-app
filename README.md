@@ -3,7 +3,7 @@ A suite of CRUD APIs for a contact book app .
 
 ## Functionality
 - Authentication of User
-- Create Contact
+- Create Contact       
 - Read Contact
 - Update Contact
 - Delete Contact
@@ -52,28 +52,28 @@ In a RESTful API, endpoints (URLs) define the structure of the API and how end u
  
          http://127.0.0.1:8080/api/ky/accounts/token/
          
-         
+       Note : Provide <b> Unique <b> UserName, Email , First  name , Last name . 
  3. To Add Contact  - POST
               
          http://127.0.0.1:8080/api/ky/server/  Authorization Token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM
          
-         
+      Note : Provide <b> Unique <b> Email , First  name , Last name , Phone no   and optional number.
  4. To List Contact  - GET
    
          http://127.0.0.1:8080/api/ky/server/   Authorization Token :eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM 
          
-         
+     Note : it will display the contact details.    
  5.  To Update Contact  - PUT
   
          http://127.0.0.1:8080/api/ky/server/<ID>   Authorization Token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0bNjZXNzIiwiZXhwIjoxNjExNDI0ODUxLCJqdGkiOiJkODcyNTM
            
-     Note : to update a contact -The  <ID> of the Contact which we want to update is passed while calling.
+     Note : to update a contact -The  ID of the Contact which we want to update is passed while calling with the generated token.
            
  6.  To Delete Contact  - DELETE
   
          http://127.0.0.1:8080/api/ky/server/<ID>   Authorization Token :eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjNDI0ODUxLCJqdGkiOiJkODcyNTM
            
-      Note : to Delete a contact -The  <ID> of the Contact which we want to update is passed while calling.
+      Note : to Delete a contact -The  ID of the Contact which we want to update is passed while calling with the generated token.
      
      
 ## Test
@@ -88,7 +88,7 @@ In a RESTful API, endpoints (URLs) define the structure of the API and how end u
   
   ![Get token](https://user-images.githubusercontent.com/61351274/105619900-21db1300-5e1d-11eb-9af6-8204eaf2119b.JPG)
  
-  ### Add Contact
+  ### Add Contact 
   
   ![Add contact](https://user-images.githubusercontent.com/61351274/105619898-1f78b900-5e1d-11eb-9f4c-6203adb4c706.JPG)
   
