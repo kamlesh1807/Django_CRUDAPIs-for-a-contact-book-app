@@ -15,6 +15,18 @@ A suite of CRUD APIs for a contact book app .
 - Django Rest Auth
 
 ## Set Up Guide ..
+
+### Use virtual environment (Suggested)
+    
+   #### An isolated workspace for the Project and  the requirement is Python 
+    
+        install virtualenvwrapper-win
+        
+        mkvirtualenv env_name      
+        
+        workon env_name
+        
+  
 * <Open the terminal/shell and insert>
 
            git clone https://github.com/kamlesh1807/Django_CRUDAPIs-for-a-contact-book-app.git
